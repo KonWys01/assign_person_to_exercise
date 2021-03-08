@@ -4,7 +4,7 @@ import random
 from difflib import SequenceMatcher
 # robi liste w ktorej kazdy element to oddzielna lista zawierajaca imie osoby oraz odopwiedzi czy chce zrobic dane zadanie
 ludzie = []
-with open('poprawne.csv', 'r') as f:
+with open('pierwsze_losowanie.csv', 'r') as f:
     for line in f:
         glosy = line.split(",")
         for i in range(len(glosy)):
